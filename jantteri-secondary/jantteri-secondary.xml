@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\outse\Documents\git\jantteri-pcb\jantteri-secondary\jantteri-secondary.sch</source>
+    <date>02/09/21 21:31:37</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>jantteri-secondary.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/impact_sensor1/" tstamps="/6005779F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>impact_sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/impact_sensor2/" tstamps="/600908FA/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>impact_sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/impact_sensor3/" tstamps="/60090942/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>impact_sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/leds/" tstamps="/600B6F29/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>leds.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>LMV321</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmv324.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C7972</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LMV321" description="Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60090C1C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25765</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600927AB</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25765</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60092C57</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60093D1D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>3.83K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C67236</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60098AA7</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>150K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25755</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6009923E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>3.83K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C67236</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60099997</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>150K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25755</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6009A035</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_JST:JST_ZH_B10B-ZR_1x10_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601FFBF6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>60058E80</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>6005B735</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22976</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>6005D06F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C1523</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>6005D506</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LMV321</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmv324.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C7972</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LMV321" description="Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>60057AD1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>60069DD0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>600706D5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1532</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>6007113C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C25752</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>60071D95</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22966</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>60072B24</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM393</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C7955</field>
+        <field name="LSCS">C7955</field>
+      </fields>
+      <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>6007C2EF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25752</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>6007FEBD</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor1/" tstamps="/6005779F/"/>
+      <tstamp>600859B0</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>60058E80</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>6005B735</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22976</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>6005D06F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C1523</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>6005D506</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LMV321</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmv324.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C7972</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LMV321" description="Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>60057AD1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>60069DD0</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>600706D5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>22n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1532</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>6007113C</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C25752</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>60071D95</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22966</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>60072B24</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM393</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C7955</field>
+        <field name="LSCS">C7955</field>
+      </fields>
+      <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>6007C2EF</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25752</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>6007FEBD</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor2/" tstamps="/600908FA/"/>
+      <tstamp>600859B0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>60058E80</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>6005B735</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22976</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>6005D06F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C1523</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>6005D506</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LMV321</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmv324.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C7972</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LMV321" description="Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>60057AD1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>60069DD0</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>600706D5</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>22n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1532</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>6007113C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C25752</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>60071D95</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22966</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>60072B24</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LM393</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C7955</field>
+        <field name="LSCS">C7955</field>
+      </fields>
+      <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>6007C2EF</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25752</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>6007FEBD</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/impact_sensor3/" tstamps="/60090942/"/>
+      <tstamp>600859B0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_BGCR</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_BGCR" description="RGB LED, blue/green/cathode/red"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600BC5E7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_BGCR</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_BGCR" description="RGB LED, blue/green/cathode/red"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600C1B63</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_BGCR</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_BGCR" description="RGB LED, blue/green/cathode/red"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600C34FE</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_BGCR</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_BGCR" description="RGB LED, blue/green/cathode/red"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600C4A16</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600C5F40</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC808</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C8543</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC808" description="0.8A Ic, 25V Vce, PNP Transistor, SOT-23"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600C7E8F</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC808</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C8543</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC808" description="0.8A Ic, 25V Vce, PNP Transistor, SOT-23"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600C9099</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC808</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C8543</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC808" description="0.8A Ic, 25V Vce, PNP Transistor, SOT-23"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600C9B4D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600CD837</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/leds/" tstamps="/600B6F29/"/>
+      <tstamp>600CDAF7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LMV321">
+      <aliases>
+        <alias>MCP6401UT-xOT</alias>
+        <alias>MCP6001U</alias>
+        <alias>OPA333xxDCK</alias>
+        <alias>OPA376xxDCK</alias>
+        <alias>OPA330xxDCK</alias>
+      </aliases>
+      <description>Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lmv324.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>*SC*70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV321</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator" part="LM2903">
+      <aliases>
+        <alias>LM393</alias>
+      </aliases>
+      <description>Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm393.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOP*5.28x5.23mm*P1.27mm*</fp>
+        <fp>VSSOP*3.0x3.0mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2903</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="_" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Male">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_BGCR">
+      <description>RGB LED, blue/green/cathode/red</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_BGCR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BA" type="passive"/>
+        <pin num="2" name="GA" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="RA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC807">
+      <aliases>
+        <alias>BC808</alias>
+        <alias>BC856</alias>
+        <alias>BC857</alias>
+        <alias>BC858</alias>
+        <alias>BC859</alias>
+        <alias>BC860</alias>
+        <alias>MMBT3906</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC807</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Comparator.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VGND+">
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="2" name="/leds/LED-R">
+      <node ref="J2" pin="5"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="3" name="/leds/LED-G">
+      <node ref="J2" pin="6"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="4" name="/leds/LED-B">
+      <node ref="J2" pin="7"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="U2" pin="8"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U7" pin="8"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="J2" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="D1" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D4" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D3" pin="3"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="7" name="/VGND-">
+      <node ref="U7" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="8" name="/impact_sensor2/out">
+      <node ref="U5" pin="7"/>
+      <node ref="J2" pin="9"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="11" name="/impact_sensor3/out">
+      <node ref="R21" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="J2" pin="8"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="12" name="/impact_sensor1/out">
+      <node ref="U2" pin="1"/>
+      <node ref="J2" pin="10"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R6-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="14" name="/VGND">
+      <node ref="J5" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C10-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="21" name="Net-(C9-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C7-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C7-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="3"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C14-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="27" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C12-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="29" name="Net-(C12-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="30" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+      <node ref="D2" pin="4"/>
+      <node ref="D3" pin="4"/>
+      <node ref="D4" pin="4"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="32" name="Net-(Q1-Pad3)">
+      <node ref="R22" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(Q2-Pad3)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="34" name="Net-(D1-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q3-Pad3)">
+      <node ref="R24" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+  </nets>
+</export>
