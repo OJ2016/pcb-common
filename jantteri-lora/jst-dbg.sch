@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -20,12 +20,12 @@ DBG_RX
 Text HLabel 4750 3700 2    50   Input ~ 0
 GND
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J3
 U 1 1 61193048
 P 4550 3500
-F 0 "J?" H 4658 3781 50  0000 C CNN
+F 0 "J3" H 4658 3781 50  0000 C CNN
 F 1 "DBG" H 4658 3690 50  0000 C CNN
-F 2 "" H 4550 3500 50  0001 C CNN
+F 2 "Connector_JST2:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical" H 4550 3500 50  0001 C CNN
 F 3 "~" H 4550 3500 50  0001 C CNN
 	1    4550 3500
 	1    0    0    -1  
