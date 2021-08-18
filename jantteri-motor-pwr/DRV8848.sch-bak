@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Driver_Motor:DRV8848 U?
+L Driver_Motor:DRV8848 U7
 U 1 1 60144BDB
 P 5600 3950
-F 0 "U?" H 5750 4700 50  0000 C CNN
+F 0 "U7" H 5750 4700 50  0000 C CNN
 F 1 "DRV8848" H 5800 4600 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 5600 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/drv8848.pdf" H 4450 5300 50  0001 C CNN
@@ -26,10 +26,10 @@ F 4 "C131079" H 5600 3950 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C20
 U 1 1 6014B226
 P 6250 3300
-F 0 "C?" H 6342 3346 50  0000 L CNN
+F 0 "C20" H 6342 3346 50  0000 L CNN
 F 1 "2u2" H 6342 3255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6250 3300 50  0001 C CNN
 F 3 "~" H 6250 3300 50  0001 C CNN
@@ -54,10 +54,10 @@ Wire Wire Line
 Wire Wire Line
 	5600 2800 5600 3200
 $Comp
-L Device:C_Small C?
+L Device:C_Small C18
 U 1 1 60176D9F
 P 5300 2800
-F 0 "C?" V 5071 2800 50  0000 C CNN
+F 0 "C18" V 5071 2800 50  0000 C CNN
 F 1 "100n" V 5162 2800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 2800 50  0001 C CNN
 F 3 "~" H 5300 2800 50  0001 C CNN
@@ -66,10 +66,10 @@ F 4 "C14663" V 5300 2800 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C19
 U 1 1 6017A1C5
 P 5300 3200
-F 0 "C?" V 5071 3200 50  0000 C CNN
+F 0 "C19" V 5071 3200 50  0000 C CNN
 F 1 "10u" V 5162 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5300 3200 50  0001 C CNN
 F 3 "~" H 5300 3200 50  0001 C CNN
@@ -102,10 +102,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 3950 6650 3950
 $Comp
-L Device:R_Small R?
+L Device:R_Small R7
 U 1 1 605A5BDC
 P 4450 3300
-F 0 "R?" V 4254 3300 50  0000 C CNN
+F 0 "R7" V 4254 3300 50  0000 C CNN
 F 1 "10K" V 4345 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4450 3300 50  0001 C CNN
 F 3 "~" H 4450 3300 50  0001 C CNN

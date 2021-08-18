@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -36,10 +36,10 @@ Wire Wire Line
 Wire Wire Line
 	5950 2900 5950 3100
 $Comp
-L Regulator_Switching:LM2596S-5 U?
+L Regulator_Switching:LM2596S-5 U6
 U 1 1 60F2D900
 P 5050 3000
-F 0 "U?" H 5050 3367 50  0000 C CNN
+F 0 "U6" H 5050 3367 50  0000 C CNN
 F 1 "LM2596S-5" H 5050 3276 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 5100 2750 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 5050 3000 50  0001 C CNN
@@ -48,10 +48,10 @@ F 4 "C347421" H 5050 3000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C17
 U 1 1 60F353C3
 P 5950 3200
-F 0 "C?" H 6042 3246 50  0000 L CNN
+F 0 "C17" H 6042 3246 50  0000 L CNN
 F 1 "220uF" H 6042 3155 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 5950 3200 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
@@ -60,10 +60,10 @@ F 4 " C171665" H 5950 3200 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D2
 U 1 1 60F3664E
 P 5550 3250
-F 0 "D?" V 5504 3330 50  0000 L CNN
+F 0 "D2" V 5504 3330 50  0000 L CNN
 F 1 " SK32WA" V 5595 3330 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 5550 3250 50  0001 C CNN
 F 3 "~" H 5550 3250 50  0001 C CNN
@@ -72,10 +72,10 @@ F 4 "C183472" H 5550 3250 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 60F41D51
 P 5700 3100
-F 0 "L?" V 5890 3100 50  0000 C CNN
+F 0 "L1" V 5890 3100 50  0000 C CNN
 F 1 "33uH" V 5799 3100 50  0000 C CNN
 F 2 "Inductor_SMD:L_12x12mm_H8mm" H 5700 3100 50  0001 C CNN
 F 3 "~" H 5700 3100 50  0001 C CNN
@@ -84,10 +84,10 @@ F 4 "C339951" H 5700 3100 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C16
 U 1 1 60F34D68
 P 4200 3200
-F 0 "C?" H 4292 3246 50  0000 L CNN
+F 0 "C16" H 4292 3246 50  0000 L CNN
 F 1 "680uF" H 4292 3155 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4200 3200 50  0001 C CNN
 F 3 "~" H 4200 3200 50  0001 C CNN

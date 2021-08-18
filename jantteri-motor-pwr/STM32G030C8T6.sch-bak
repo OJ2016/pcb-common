@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -42,12 +42,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 2350 3900 2350
 $Comp
-L Device:R_Small R?
+L Device:R_Small R3
 U 1 1 61169DFC
 P 7250 2250
-AR Path="/61169DFC" Ref="R?"  Part="1" 
-AR Path="/6116447D/61169DFC" Ref="R?"  Part="1" 
-F 0 "R?" V 7054 2250 50  0000 C CNN
+F 0 "R3" V 7054 2250 50  0000 C CNN
 F 1 "47" V 7145 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7250 2250 50  0001 C CNN
 F 3 "~" H 7250 2250 50  0001 C CNN
@@ -56,12 +54,10 @@ F 4 "C25118" V 7250 2250 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C9
 U 1 1 61169E03
 P 7000 2550
-AR Path="/61169E03" Ref="C?"  Part="1" 
-AR Path="/6116447D/61169E03" Ref="C?"  Part="1" 
-F 0 "C?" H 7092 2596 50  0000 L CNN
+F 0 "C9" H 7092 2596 50  0000 L CNN
 F 1 "12p" H 7092 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7000 2550 50  0001 C CNN
 F 3 "~" H 7000 2550 50  0001 C CNN
@@ -70,12 +66,10 @@ F 4 "C1547" H 7000 2550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C8
 U 1 1 61169E0A
 P 6500 2550
-AR Path="/61169E0A" Ref="C?"  Part="1" 
-AR Path="/6116447D/61169E0A" Ref="C?"  Part="1" 
-F 0 "C?" H 6592 2596 50  0000 L CNN
+F 0 "C8" H 6592 2596 50  0000 L CNN
 F 1 "12p" H 6592 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 2550 50  0001 C CNN
 F 3 "~" H 6500 2550 50  0001 C CNN
@@ -84,12 +78,10 @@ F 4 "C1547" H 6500 2550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND24_Small Y?
+L Device:Crystal_GND24_Small Y1
 U 1 1 61169E11
 P 6800 2250
-AR Path="/61169E11" Ref="Y?"  Part="1" 
-AR Path="/6116447D/61169E11" Ref="Y?"  Part="1" 
-F 0 "Y?" H 6400 2600 50  0000 L CNN
+F 0 "Y1" H 6400 2600 50  0000 L CNN
 F 1 "16MHz" H 6400 2500 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 6800 2250 50  0001 C CNN
 F 3 "~" H 6800 2250 50  0001 C CNN
@@ -98,12 +90,10 @@ F 4 "C13738" H 6800 2250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 61169E18
 P 4250 3350
-AR Path="/61169E18" Ref="D?"  Part="1" 
-AR Path="/6116447D/61169E18" Ref="D?"  Part="1" 
-F 0 "D?" H 4243 3095 50  0000 C CNN
+F 0 "D1" H 4243 3095 50  0000 C CNN
 F 1 "LED" H 4243 3186 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 4250 3350 50  0001 C CNN
 F 3 "~" H 4250 3350 50  0001 C CNN
@@ -112,12 +102,10 @@ F 4 "C72041" H 4250 3350 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R4
 U 1 1 61169E1F
 P 4000 3350
-AR Path="/61169E1F" Ref="R?"  Part="1" 
-AR Path="/6116447D/61169E1F" Ref="R?"  Part="1" 
-F 0 "R?" V 3804 3350 50  0000 C CNN
+F 0 "R4" V 3804 3350 50  0000 C CNN
 F 1 "1k5" V 3895 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4000 3350 50  0001 C CNN
 F 3 "~" H 4000 3350 50  0001 C CNN
@@ -126,12 +114,10 @@ F 4 "C25867" V 4000 3350 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1
 U 1 1 61169E26
 P 3400 2450
-AR Path="/61169E26" Ref="C?"  Part="1" 
-AR Path="/6116447D/61169E26" Ref="C?"  Part="1" 
-F 0 "C?" H 3492 2496 50  0000 L CNN
+F 0 "C1" H 3492 2496 50  0000 L CNN
 F 1 "4u7" H 3492 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3400 2450 50  0001 C CNN
 F 3 "~" H 3400 2450 50  0001 C CNN
@@ -140,12 +126,10 @@ F 4 "C29823" H 3400 2450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 61169E2D
 P 3900 2450
-AR Path="/61169E2D" Ref="C?"  Part="1" 
-AR Path="/6116447D/61169E2D" Ref="C?"  Part="1" 
-F 0 "C?" H 3992 2496 50  0000 L CNN
+F 0 "C2" H 3992 2496 50  0000 L CNN
 F 1 "100n" H 3992 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 2450 50  0001 C CNN
 F 3 "~" H 3900 2450 50  0001 C CNN
@@ -171,19 +155,6 @@ Wire Wire Line
 	3900 4150 4550 4150
 NoConn ~ 4550 3550
 NoConn ~ 4550 3650
-$Comp
-L JLC_assembled:STM32G030C8T6 U?
-U 1 1 61169E68
-P 5300 4750
-AR Path="/61169E68" Ref="U?"  Part="1" 
-AR Path="/6116447D/61169E68" Ref="U?"  Part="1" 
-F 0 "U?" H 5300 6375 50  0000 C CNN
-F 1 "STM32G030C8T6" H 5300 6284 50  0000 C CNN
-F 2 "" H 5550 7000 50  0001 C CNN
-F 3 "" H 5550 7000 50  0001 C CNN
-	1    5300 4750
-	1    0    0    -1  
-$EndComp
 Text HLabel 3400 2350 0    50   Input ~ 0
 3V3
 Text HLabel 3400 2550 0    50   Input ~ 0
@@ -210,10 +181,6 @@ Text HLabel 6050 4550 2    50   Input ~ 0
 SWDIO
 Text HLabel 6050 4650 2    50   Input ~ 0
 SWCLK
-Text HLabel 6050 3750 2    50   Input ~ 0
-DBG_TX
-Text HLabel 6050 4050 2    50   Input ~ 0
-DBG_RX
 Text HLabel 6050 3350 2    50   Input ~ 0
 PB13
 Text HLabel 6050 3450 2    50   Input ~ 0
@@ -246,10 +213,6 @@ Text HLabel 6050 5600 2    50   Input ~ 0
 PB4
 Text HLabel 6050 5700 2    50   Input ~ 0
 PB5
-Text HLabel 6050 5800 2    50   Input ~ 0
-PB6
-Text HLabel 6050 5900 2    50   Input ~ 0
-PB7
 Text HLabel 6050 6000 2    50   Input ~ 0
 PB8
 Text HLabel 6050 6100 2    50   Input ~ 0
@@ -294,7 +257,8 @@ U 1 1 61169E3B
 P 4650 2450
 AR Path="/61169E3B" Ref="C?"  Part="1" 
 AR Path="/6116447D/61169E3B" Ref="C?"  Part="1" 
-F 0 "C?" H 4742 2496 50  0000 L CNN
+AR Path="/611C518B/61169E3B" Ref="C4"  Part="1" 
+F 0 "C4" H 4742 2496 50  0000 L CNN
 F 1 "100n" H 4742 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 2450 50  0001 C CNN
 F 3 "~" H 4650 2450 50  0001 C CNN
@@ -308,7 +272,8 @@ U 1 1 61169E34
 P 4300 2450
 AR Path="/61169E34" Ref="C?"  Part="1" 
 AR Path="/6116447D/61169E34" Ref="C?"  Part="1" 
-F 0 "C?" H 4392 2496 50  0000 L CNN
+AR Path="/611C518B/61169E34" Ref="C3"  Part="1" 
+F 0 "C3" H 4392 2496 50  0000 L CNN
 F 1 "100n" H 4392 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 2450 50  0001 C CNN
 F 3 "~" H 4300 2450 50  0001 C CNN
@@ -332,7 +297,8 @@ U 1 1 61175BE9
 P 5000 2450
 AR Path="/61175BE9" Ref="C?"  Part="1" 
 AR Path="/6116447D/61175BE9" Ref="C?"  Part="1" 
-F 0 "C?" H 5092 2496 50  0000 L CNN
+AR Path="/611C518B/61175BE9" Ref="C5"  Part="1" 
+F 0 "C5" H 5092 2496 50  0000 L CNN
 F 1 "100n" H 5092 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5000 2450 50  0001 C CNN
 F 3 "~" H 5000 2450 50  0001 C CNN
@@ -346,7 +312,8 @@ U 1 1 611762EE
 P 5350 2450
 AR Path="/611762EE" Ref="C?"  Part="1" 
 AR Path="/6116447D/611762EE" Ref="C?"  Part="1" 
-F 0 "C?" H 5442 2496 50  0000 L CNN
+AR Path="/611C518B/611762EE" Ref="C6"  Part="1" 
+F 0 "C6" H 5442 2496 50  0000 L CNN
 F 1 "100n" H 5442 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 2450 50  0001 C CNN
 F 3 "~" H 5350 2450 50  0001 C CNN
@@ -360,7 +327,8 @@ U 1 1 61176759
 P 5700 2450
 AR Path="/61176759" Ref="C?"  Part="1" 
 AR Path="/6116447D/61176759" Ref="C?"  Part="1" 
-F 0 "C?" H 5792 2496 50  0000 L CNN
+AR Path="/611C518B/61176759" Ref="C7"  Part="1" 
+F 0 "C7" H 5792 2496 50  0000 L CNN
 F 1 "100n" H 5792 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5700 2450 50  0001 C CNN
 F 3 "~" H 5700 2450 50  0001 C CNN
@@ -386,4 +354,24 @@ Wire Wire Line
 Connection ~ 5350 2350
 Wire Wire Line
 	5350 2350 5000 2350
+Text HLabel 6050 3750 2    50   Input ~ 0
+PA9
+Text HLabel 6050 4050 2    50   Input ~ 0
+PA10
+Text HLabel 6050 5900 2    50   Input ~ 0
+PB7
+Text HLabel 6050 5800 2    50   Input ~ 0
+PB6
+$Comp
+L JLC_assembled:STM32G030C8T6 U2
+U 1 1 611C600E
+P 5300 4750
+F 0 "U2" H 5300 6375 50  0000 C CNN
+F 1 "STM32G030C8T6" H 5300 6284 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5550 7000 50  0001 C CNN
+F 3 "" H 5550 7000 50  0001 C CNN
+F 4 "C529329" H 5300 4750 50  0001 C CNN "LCSC"
+	1    5300 4750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
