@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name jantteri-motor-pwr-rescue)(type Legacy)(uri ${KIPRJMOD}/jantteri-motor-pwr-rescue.lib)(options "")(descr ""))
+)

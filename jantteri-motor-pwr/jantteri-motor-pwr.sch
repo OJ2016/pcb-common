@@ -312,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3750 2550 3750
 $Comp
-L voja-lib:lora-mod U1
+L jantteri-motor-pwr-rescue:lora-mod-voja-lib U1
 U 1 1 611C29AF
 P 8700 4200
 F 0 "U1" H 8675 4775 50  0000 C CNN
