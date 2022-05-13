@@ -363,9 +363,11 @@ PB7
 Text HLabel 6050 5800 2    50   Input ~ 0
 PB6
 $Comp
-L JLC_assembled:STM32G030C8T6 U2
+L jantteri-motor-pwr-rescue:STM32G030C8T6-JLC_assembled U2
 U 1 1 611C600E
 P 5300 4750
+AR Path="/611C600E" Ref="U2"  Part="1" 
+AR Path="/611C518B/611C600E" Ref="U2"  Part="1" 
 F 0 "U2" H 5300 6375 50  0000 C CNN
 F 1 "STM32G030C8T6" H 5300 6284 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5550 7000 50  0001 C CNN

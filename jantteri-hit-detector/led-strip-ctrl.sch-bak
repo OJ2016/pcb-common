@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -57,6 +57,7 @@ F 0 "U8" H 5050 3000 50  0000 C CNN
 F 1 "TXB0104RUT" H 5200 2900 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_R_PUQFN-N12" H 4800 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 4910 3745 50  0001 C CNN
+F 4 " C105266 " H 4800 3650 50  0001 C CNN "LCSC"
 	1    4800 3650
 	1    0    0    -1  
 $EndComp

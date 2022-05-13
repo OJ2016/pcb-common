@@ -521,10 +521,10 @@ AR Path="/611A8D7A/611DB1A0" Ref="Q?"  Part="1"
 AR Path="/611E498E/611DB1A0" Ref="Q?"  Part="1" 
 AR Path="/612244CD/611DB1A0" Ref="Q?"  Part="1" 
 F 0 "Q1" V 1492 1250 50  0000 C CNN
-F 1 "PDN3909S" V 1401 1250 50  0000 C CNN
+F 1 "AO3401A" V 1401 1250 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1350 1175 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/66709/si2319cd.pdf" H 1150 1250 50  0001 L CNN
-F 4 "C441843" V 1150 1250 50  0001 C CNN "LCSC"
+F 4 "C700954" V 1150 1250 50  0001 C CNN "LCSC"
 	1    1150 1250
 	0    -1   -1   0   
 $EndComp
@@ -676,18 +676,6 @@ F 3 "" H 7500 2300 50  0001 C CNN
 	1    7500 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Fuse_Small F1
-U 1 1 611FF9F7
-P 7750 2150
-F 0 "F1" H 7750 2335 50  0000 C CNN
-F 1 "C58066" H 7750 2244 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" H 7750 2150 50  0001 C CNN
-F 3 "~" H 7750 2150 50  0001 C CNN
-F 4 "C58066" H 7750 2150 50  0001 C CNN "LCSC"
-	1    7750 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7200 2250 7500 2250
 Wire Wire Line
@@ -713,10 +701,6 @@ Wire Wire Line
 	7200 1600 7750 1600
 Wire Wire Line
 	7750 1600 7750 1700
-Wire Wire Line
-	7200 2150 7650 2150
-Wire Wire Line
-	7850 2150 8100 2150
 $Comp
 L Connector:Conn_01x02_Male J7
 U 1 1 61218536
@@ -795,4 +779,6 @@ F 3 "" H 9150 2000 50  0001 C CNN
 	1    9150 2000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7200 2150 8100 2150
 $EndSCHEMATC
