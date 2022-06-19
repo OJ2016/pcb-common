@@ -34,7 +34,7 @@ U 1 1 6115169A
 P 5200 3600
 F 0 "J2" H 5250 4017 50  0000 C CNN
 F 1 "SWD" H 5250 3926 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 5200 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Horizontal" H 5200 3600 50  0001 C CNN
 F 3 "~" H 5200 3600 50  0001 C CNN
 	1    5200 3600
 	1    0    0    -1  

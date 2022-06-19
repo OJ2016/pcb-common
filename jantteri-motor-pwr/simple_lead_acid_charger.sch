@@ -1,0 +1,132 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6650 3250 2    50   Input ~ 0
+battery+
+Text HLabel 6650 3900 2    50   Input ~ 0
+battery-
+Text HLabel 3350 3250 0    50   Input ~ 0
+Vinput
+Text HLabel 3350 3900 0    50   Input ~ 0
+GND
+$Comp
+L Regulator_Linear:LM317_SOT-223 U9
+U 1 1 6290848A
+P 4100 3250
+F 0 "U9" H 4100 3492 50  0000 C CNN
+F 1 "LM317_SOT-223" H 4100 3401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4100 3500 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 4100 3250 50  0001 C CNN
+F 4 "C19651" H 4100 3250 50  0001 C CNN "LCSC"
+	1    4100 3250
+	1    0    0    -1  
+$EndComp
+Text Notes 3750 2700 0    50   ~ 0
+15 volt regulator
+$Comp
+L Regulator_Linear:LM317_SOT-223 U10
+U 1 1 62909267
+P 5150 3250
+F 0 "U10" H 5150 3492 50  0000 C CNN
+F 1 "LM317_SOT-223" H 5150 3401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5150 3500 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 5150 3250 50  0001 C CNN
+F 4 "C19651" H 5150 3250 50  0001 C CNN "LCSC"
+	1    5150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3900 4500 3900
+Wire Wire Line
+	4850 3250 4500 3250
+Wire Wire Line
+	3800 3250 3350 3250
+$Comp
+L Device:R_Small R20
+U 1 1 62909FE3
+P 4500 3350
+F 0 "R20" H 4559 3396 50  0000 L CNN
+F 1 "220" H 4559 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4500 3350 50  0001 C CNN
+F 3 "~" H 4500 3350 50  0001 C CNN
+F 4 " C25087 " H 4500 3350 50  0001 C CNN "LCSC"
+	1    4500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R21
+U 1 1 6290A60A
+P 4500 3800
+F 0 "R21" H 4559 3846 50  0000 L CNN
+F 1 "2K4" H 4559 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4500 3800 50  0001 C CNN
+F 3 "~" H 4500 3800 50  0001 C CNN
+F 4 "C517661" H 4500 3800 50  0001 C CNN "LCSC"
+	1    4500 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 3900
+Connection ~ 4500 3250
+Wire Wire Line
+	4500 3250 4400 3250
+Wire Wire Line
+	4100 3550 4500 3550
+Wire Wire Line
+	4500 3550 4500 3450
+Wire Wire Line
+	4500 3700 4500 3550
+Connection ~ 4500 3550
+$Comp
+L Device:R_Small R18
+U 1 1 6290AEA4
+P 5700 3250
+F 0 "R18" V 5504 3250 50  0000 C CNN
+F 1 "5R1" V 5595 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 5700 3250 50  0001 C CNN
+F 3 "~" H 5700 3250 50  0001 C CNN
+F 4 "C514891 " H 5700 3250 50  0001 C CNN "LCSC"
+	1    5700 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3250 5600 3250
+Wire Wire Line
+	5800 3250 5850 3250
+Wire Wire Line
+	5150 3550 5850 3550
+Wire Wire Line
+	5850 3550 5850 3250
+Connection ~ 5850 3250
+Wire Wire Line
+	5850 3250 5950 3250
+$Comp
+L Device:D_Small D5
+U 1 1 6290C40F
+P 6050 3250
+F 0 "D5" H 6050 3043 50  0000 C CNN
+F 1 "B5819W SL" H 6050 3134 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 6050 3250 50  0001 C CNN
+F 3 "~" V 6050 3250 50  0001 C CNN
+F 4 "C8598" H 6050 3250 50  0001 C CNN "LCSC"
+	1    6050 3250
+	-1   0    0    1   
+$EndComp
+Text Notes 4700 2700 0    50   ~ 0
+200mA constant current
+Wire Wire Line
+	4500 3900 6650 3900
+Wire Wire Line
+	6150 3250 6650 3250
+$EndSCHEMATC

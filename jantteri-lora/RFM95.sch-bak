@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L RF_Module:RFM95W-868S2 U3
-U 1 1 60128928
-P 6250 3450
-F 0 "U3" H 5550 4050 50  0000 C CNN
-F 1 "RFM95W-868S2" H 5800 3950 50  0000 C CNN
-F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 2950 5100 50  0001 C CNN
-F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 2950 5100 50  0001 C CNN
-	1    6250 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 4050 6150 4100
 Wire Wire Line
@@ -50,11 +39,6 @@ F 3 "~" H 7100 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6750 3150 6900 3150
-NoConn ~ 6750 3750
-NoConn ~ 6750 3650
-NoConn ~ 6750 3550
-NoConn ~ 6750 3450
-NoConn ~ 6750 3350
 Text Notes 7900 600  0    50   ~ 0
 RFM95\n
 Text HLabel 6750 3850 2    50   Input ~ 0
@@ -111,4 +95,25 @@ Wire Wire Line
 	4450 3350 4800 3350
 Wire Wire Line
 	4450 3550 4800 3550
+Text HLabel 6750 3750 2    50   Input ~ 0
+DIO1
+Text HLabel 6750 3650 2    50   Input ~ 0
+DIO2
+Text HLabel 6750 3550 2    50   Input ~ 0
+DIO3
+Text HLabel 6750 3450 2    50   Input ~ 0
+DIO4
+Text HLabel 6750 3350 2    50   Input ~ 0
+DIO5
+$Comp
+L RF_Module:RFM95W-868S2 U3
+U 1 1 60128928
+P 6250 3450
+F 0 "U3" H 5550 4050 50  0000 C CNN
+F 1 "RFM95W-868S2" H 5800 3950 50  0000 C CNN
+F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 2950 5100 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 2950 5100 50  0001 C CNN
+	1    6250 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -23,7 +23,7 @@ F3 "VOUT" I R 4200 1550 50
 F4 "GND" I L 3650 1650 50 
 $EndSheet
 $Sheet
-S 8150 1250 550  800 
+S 8150 1250 550  1000
 U 6112EDA0
 F0 "RFM95" 50
 F1 "RFM95.sch" 50
@@ -35,18 +35,11 @@ F6 "MISO" I L 8150 1750 50
 F7 "MOSI" I L 8150 1850 50 
 F8 "SCK" I L 8150 1950 50 
 F9 "3V3" I R 8700 1350 50 
-$EndSheet
-$Sheet
-S 5250 2300 650  400 
-U 61150666
-F0 "10pinARM" 50
-F1 "10pinARM.sch" 50
-F2 "3V3" I L 5250 2400 50 
-F3 "GND" I L 5250 2500 50 
-F4 "SWDIO" I R 5900 2500 50 
-F5 "SWCLK" I R 5900 2600 50 
-F6 "SWO" I L 5250 2600 50 
-F7 "NRST" I R 5900 2400 50 
+F10 "DIO1" I R 8700 1700 50 
+F11 "DIO2" I R 8700 1800 50 
+F12 "DIO3" I R 8700 1900 50 
+F13 "DIO4" I R 8700 2000 50 
+F14 "DIO5" I R 8700 2100 50 
 $EndSheet
 $Comp
 L power:+3V3 #PWR08
@@ -74,12 +67,6 @@ Wire Wire Line
 	6100 1950 5850 1950
 Wire Wire Line
 	5850 1850 6100 1850
-Wire Wire Line
-	5900 2400 6100 2400
-Wire Wire Line
-	5900 2500 6100 2500
-Wire Wire Line
-	6100 2600 5900 2600
 $Comp
 L power:GND #PWR07
 U 1 1 611483EC
@@ -113,11 +100,6 @@ F 3 "" H 5050 2400 50  0001 C CNN
 	1    5050 2400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5250 2600
-Wire Wire Line
-	5050 2500 5250 2500
-Wire Wire Line
-	5250 2400 5050 2400
 $Comp
 L power:+3V3 #PWR011
 U 1 1 6114B431
@@ -200,143 +182,6 @@ F 4 "C1015" V 2750 1550 50  0001 C CNN "LCSC"
 	1    2750 1550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2350 1550 2600 1550
-Text GLabel 3150 3450 2    50   Input ~ 0
-5V-IN
-$Comp
-L power:GND #PWR04
-U 1 1 61169965
-P 3650 3550
-F 0 "#PWR04" H 3650 3300 50  0001 C CNN
-F 1 "GND" H 3655 3377 50  0000 C CNN
-F 2 "" H 3650 3550 50  0001 C CNN
-F 3 "" H 3650 3550 50  0001 C CNN
-	1    3650 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 3550 3650 3550
-Text GLabel 2200 3450 0    50   Input ~ 0
-OUTPUT_SDA
-Text GLabel 2200 3550 0    50   Input ~ 0
-OUTPUT_SCL
-Text GLabel 2200 3650 0    50   Input ~ 0
-DATA1
-$Comp
-L voja-lib:lora-mod U1
-U 1 1 61170943
-P 2700 3800
-F 0 "U1" H 2675 4375 50  0000 C CNN
-F 1 "lora-mod" H 2675 4284 50  0000 C CNN
-F 2 "voja-footprints:lora-mod" H 2700 3800 50  0001 C CNN
-F 3 "" H 2700 3800 50  0001 C CNN
-	1    2700 3800
-	1    0    0    -1  
-$EndComp
-Text GLabel 2200 3750 0    50   Input ~ 0
-DATA2
-Text GLabel 2200 3850 0    50   Input ~ 0
-DATA3
-Text GLabel 2200 3950 0    50   Input ~ 0
-DATA4
-Text GLabel 2200 4050 0    50   Input ~ 0
-DATA5
-Text GLabel 2200 4150 0    50   Input ~ 0
-DATA6
-Text GLabel 2200 4250 0    50   Input ~ 0
-DATA7
-Text GLabel 2200 4350 0    50   Input ~ 0
-DATA8
-Text GLabel 3150 3650 2    50   Input ~ 0
-DATA9
-Text GLabel 3150 3750 2    50   Input ~ 0
-DATA10
-Text GLabel 3150 3850 2    50   Input ~ 0
-DATA11
-Text GLabel 3150 3950 2    50   Input ~ 0
-DATA12
-Text GLabel 3150 4050 2    50   Input ~ 0
-DATA13
-Text GLabel 3150 4150 2    50   Input ~ 0
-DATA14
-Text GLabel 3150 4250 2    50   Input ~ 0
-DATA15
-Text GLabel 3150 4350 2    50   Input ~ 0
-DATA16
-$Sheet
-S 1150 1300 650  350 
-U 6117A90D
-F0 "power_protect" 50
-F1 "power_protect.sch" 50
-F2 "GND" I R 1800 1550 50 
-F3 "OUT" I R 1800 1400 50 
-F4 "VIN" I L 1150 1400 50 
-F5 "EN" I L 1150 1550 50 
-$EndSheet
-$Sheet
-S 1150 2050 650  350 
-U 611A8D7A
-F0 "sheet611A8D74" 50
-F1 "power_protect.sch" 50
-F2 "GND" I R 1800 2300 50 
-F3 "OUT" I R 1800 2150 50 
-F4 "VIN" I L 1150 2150 50 
-F5 "EN" I L 1150 2300 50 
-$EndSheet
-Text GLabel 900  2150 0    50   Input ~ 0
-USB-5V
-Text GLabel 850  1400 0    50   Input ~ 0
-5V-IN
-Wire Wire Line
-	850  1400 1000 1400
-Wire Wire Line
-	900  2150 1150 2150
-Wire Wire Line
-	1000 1400 1000 2300
-Wire Wire Line
-	1000 2300 1150 2300
-Connection ~ 1000 1400
-Wire Wire Line
-	1000 1400 1150 1400
-NoConn ~ 1150 1550
-Wire Wire Line
-	1800 1400 2350 1400
-Wire Wire Line
-	2350 1400 2350 1550
-Wire Wire Line
-	1800 2150 2350 2150
-Wire Wire Line
-	2350 2150 2350 1550
-Connection ~ 2350 1550
-$Comp
-L power:GND #PWR01
-U 1 1 611AB45E
-P 2100 1600
-F 0 "#PWR01" H 2100 1350 50  0001 C CNN
-F 1 "GND" H 2105 1427 50  0000 C CNN
-F 2 "" H 2100 1600 50  0001 C CNN
-F 3 "" H 2100 1600 50  0001 C CNN
-	1    2100 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 611AB5EF
-P 2100 2300
-F 0 "#PWR02" H 2100 2050 50  0001 C CNN
-F 1 "GND" H 2105 2127 50  0000 C CNN
-F 2 "" H 2100 2300 50  0001 C CNN
-F 3 "" H 2100 2300 50  0001 C CNN
-	1    2100 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 1550 2100 1550
-Wire Wire Line
-	2100 1550 2100 1600
-Wire Wire Line
-	2100 2300 1800 2300
 Text Notes 650  1050 0    50   ~ 0
 5V-IN disables USB power input. If no 5V-IN connected, USB-5V is used 
 Wire Wire Line
@@ -361,46 +206,10 @@ Text GLabel 8150 1650 0    50   Input ~ 0
 RFM_NSS
 Text GLabel 6100 3650 0    50   Input ~ 0
 RFM_RST
-Text GLabel 6100 3750 0    50   Input ~ 0
+Text GLabel 6900 2550 2    50   Input ~ 0
 RFM_DIO0
 Text GLabel 6100 3850 0    50   Input ~ 0
 RFM_NSS
-Text GLabel 6900 2550 2    50   Input ~ 0
-OUTPUT_SDA
-Text GLabel 6900 2450 2    50   Input ~ 0
-OUTPUT_SCL
-Text GLabel 6100 3350 0    50   Input ~ 0
-DATA1
-Text GLabel 6100 4050 0    50   Input ~ 0
-DATA2
-Text GLabel 6100 4150 0    50   Input ~ 0
-DATA3
-Text GLabel 6100 4450 0    50   Input ~ 0
-DATA4
-Text GLabel 6100 4550 0    50   Input ~ 0
-DATA5
-Text GLabel 6100 4650 0    50   Input ~ 0
-DATA6
-Text GLabel 6900 1850 2    50   Input ~ 0
-DATA7
-Text GLabel 6900 1950 2    50   Input ~ 0
-DATA8
-Text GLabel 6900 2050 2    50   Input ~ 0
-DATA9
-Text GLabel 6900 2150 2    50   Input ~ 0
-DATA10
-Text GLabel 6900 2250 2    50   Input ~ 0
-DATA11
-Text GLabel 6900 2350 2    50   Input ~ 0
-DATA12
-Text GLabel 6900 2750 2    50   Input ~ 0
-DATA16
-Text GLabel 6900 2650 2    50   Input ~ 0
-DATA15
-Text GLabel 6900 2850 2    50   Input ~ 0
-DATA14
-Text GLabel 6900 2950 2    50   Input ~ 0
-DATA13
 $Sheet
 S 6100 1750 800  3050
 U 6116447D
@@ -456,4 +265,80 @@ Text GLabel 6100 4250 0    50   Input ~ 0
 DBG_TX
 Text GLabel 6100 4350 0    50   Input ~ 0
 DBG_RX
+$Comp
+L Transistor_FET:Si2319CDS Q?
+U 1 1 628A2F57
+P 1800 1650
+AR Path="/611583F8/628A2F57" Ref="Q?"  Part="1" 
+AR Path="/628A2F57" Ref="Q1"  Part="1" 
+AR Path="/6117A90D/628A2F57" Ref="Q?"  Part="1" 
+AR Path="/611A8D7A/628A2F57" Ref="Q?"  Part="1" 
+F 0 "Q1" V 2142 1650 50  0000 C CNN
+F 1 "IRLML6402TRPBF" V 2051 1650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 1575 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/66709/si2319cd.pdf" H 1800 1650 50  0001 L CNN
+F 4 "C2593" V 1800 1650 50  0001 C CNN "LCSC"
+	1    1800 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 1550 1600 1550
+Text GLabel 1250 1550 0    50   Input ~ 0
+USB-5V
+Wire Wire Line
+	2000 1550 2600 1550
+$Comp
+L power:GND #PWR0101
+U 1 1 628A63B0
+P 1800 1850
+F 0 "#PWR0101" H 1800 1600 50  0001 C CNN
+F 1 "GND" H 1805 1677 50  0000 C CNN
+F 2 "" H 1800 1850 50  0001 C CNN
+F 3 "" H 1800 1850 50  0001 C CNN
+	1    1800 1850
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5200 2300 650  450 
+U 628A7B72
+F0 "TC2030" 50
+F1 "TC2030ARM.sch" 50
+F2 "3V3" I L 5200 2400 50 
+F3 "GND" I L 5200 2500 50 
+F4 "SWDIO" I R 5850 2500 50 
+F5 "SWCLK" I R 5850 2600 50 
+F6 "SWO" I R 5850 2700 50 
+F7 "NRST" I R 5850 2400 50 
+$EndSheet
+Wire Wire Line
+	5050 2400 5200 2400
+Wire Wire Line
+	5050 2500 5200 2500
+Wire Wire Line
+	5850 2400 6100 2400
+Wire Wire Line
+	5850 2500 6100 2500
+Wire Wire Line
+	5850 2600 6100 2600
+NoConn ~ 5850 2700
+Text GLabel 8700 1700 2    50   Input ~ 0
+RFM_DIO1
+Text GLabel 8700 1800 2    50   Input ~ 0
+RFM_DIO2
+Text GLabel 8700 1900 2    50   Input ~ 0
+RFM_DIO3
+Text GLabel 8700 2000 2    50   Input ~ 0
+RFM_DIO4
+Text GLabel 8700 2100 2    50   Input ~ 0
+RFM_DIO5
+Text GLabel 6900 2450 2    50   Input ~ 0
+RFM_DIO1
+Text GLabel 6900 2350 2    50   Input ~ 0
+RFM_DIO2
+Text GLabel 6900 2750 2    50   Input ~ 0
+RFM_DIO3
+Text GLabel 6900 2650 2    50   Input ~ 0
+RFM_DIO4
+Text GLabel 6900 2250 2    50   Input ~ 0
+RFM_DIO5
 $EndSCHEMATC
