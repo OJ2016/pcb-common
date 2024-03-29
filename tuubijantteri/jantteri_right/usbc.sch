@@ -1,0 +1,512 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 8650 3200 0    50   Input ~ 0
+SDA
+Text HLabel 8650 3100 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	3300 2350 3300 2300
+Wire Wire Line
+	3400 2300 3300 2300
+Connection ~ 3300 2300
+Wire Wire Line
+	3300 2300 3300 2250
+Wire Wire Line
+	3300 2450 3300 2500
+Wire Wire Line
+	3300 2500 3400 2500
+Connection ~ 3300 2500
+Wire Wire Line
+	3300 2500 3300 2550
+Text HLabel 2700 3250 3    50   Input ~ 0
+GND
+Text Label 3300 1950 0    50   ~ 0
+CC1
+Text Label 3300 2050 0    50   ~ 0
+CC2
+Text Label 8550 2300 2    50   ~ 0
+CC1
+Text Label 8550 2600 2    50   ~ 0
+CC2
+Wire Wire Line
+	5550 1750 5000 1750
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 62A47C48
+P 2700 2350
+F 0 "J1" H 2807 3217 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2807 3126 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400" H 2850 2350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2850 2350 50  0001 C CNN
+F 4 "C309367" H 2700 2350 50  0001 C CNN "LCSC"
+	1    2700 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3300 2850
+NoConn ~ 3300 2950
+NoConn ~ 2400 3250
+Wire Wire Line
+	8650 2400 8650 2300
+Wire Wire Line
+	8550 2300 8650 2300
+Wire Wire Line
+	8650 2700 8650 2600
+Wire Wire Line
+	8550 2600 8650 2600
+Text HLabel 8300 3400 0    50   Input ~ 0
+GND
+Text HLabel 8300 3500 0    50   Input ~ 0
+GND
+Connection ~ 8650 2600
+Connection ~ 8650 2300
+$Comp
+L Interface_USB:STUSB4500QTR U1
+U 1 1 65E90B8D
+P 9250 2800
+F 0 "U1" H 9250 1811 50  0000 C CNN
+F 1 "STUSB4500QTR" H 9250 1720 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" H 9250 2800 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stusb4500.pdf" H 9250 2800 50  0001 C CNN
+F 4 "C2678061" H 9250 2800 50  0001 C CNN "LCSC"
+	1    9250 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 9750 1750 2    50   Input ~ 0
+GND
+Wire Wire Line
+	9550 1900 9550 1750
+Wire Wire Line
+	9450 1550 9450 1900
+NoConn ~ 8650 3300
+NoConn ~ 9850 3300
+NoConn ~ 9850 3200
+NoConn ~ 9850 3400
+NoConn ~ 9850 2700
+NoConn ~ 9850 2800
+Text HLabel 9250 1900 1    50   Input ~ 0
+GND
+Text HLabel 9250 3700 2    50   Input ~ 0
+GND
+$Comp
+L Device:R_Small R4
+U 1 1 65EB2972
+P 8400 3400
+F 0 "R4" V 8204 3400 50  0000 C CNN
+F 1 "100K" V 8295 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3400 50  0001 C CNN
+F 3 "~" H 8400 3400 50  0001 C CNN
+F 4 "C25741" V 8400 3400 50  0001 C CNN "LCSC"
+	1    8400 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 3400 8500 3400
+Wire Wire Line
+	8500 3500 8650 3500
+Text HLabel 8450 2100 0    50   Input ~ 0
+GND
+Text HLabel 5550 1750 2    50   Input ~ 0
+VBUS
+$Comp
+L Transistor_FET:AO3401A Q5
+U 1 1 65FD3727
+P 10350 900
+F 0 "Q5" V 10692 900 50  0000 C CNN
+F 1 "AP3407" V 10601 900 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10550 825 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 10350 900 50  0001 L CNN
+F 4 "C353080" V 10350 900 50  0001 C CNN "LCSC"
+	1    10350 900 
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9200 800  0    50   Input ~ 0
+VSINK
+Text HLabel 10950 800  2    50   Input ~ 0
+VBUS
+$Comp
+L Device:C_Small C?
+U 1 1 65FD56E6
+P 9700 950
+AR Path="/65FD56E6" Ref="C?"  Part="1" 
+AR Path="/6116447D/65FD56E6" Ref="C?"  Part="1" 
+AR Path="/611C518B/65FD56E6" Ref="C?"  Part="1" 
+AR Path="/628A7288/65FD56E6" Ref="C?"  Part="1" 
+AR Path="/628D4B95/65FD56E6" Ref="C?"  Part="1" 
+AR Path="/65E8DC68/65FD56E6" Ref="C?"  Part="1" 
+AR Path="/65F0916A/65FD56E6" Ref="C1"  Part="1" 
+F 0 "C1" H 9792 996 50  0000 L CNN
+F 1 "0u1" H 9792 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9700 950 50  0001 C CNN
+F 3 "~" H 9700 950 50  0001 C CNN
+F 4 " C307331" H 9700 950 50  0001 C CNN "LCSC"
+	1    9700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 65FD759A
+P 10100 1150
+F 0 "R3" V 9904 1150 50  0000 C CNN
+F 1 "100R" V 9995 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10100 1150 50  0001 C CNN
+F 3 "~" H 10100 1150 50  0001 C CNN
+F 4 "C22775" V 10100 1150 50  0001 C CNN "LCSC"
+	1    10100 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 65FD7BE1
+P 10700 1350
+F 0 "R7" V 10504 1350 50  0000 C CNN
+F 1 "22K" V 10595 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10700 1350 50  0001 C CNN
+F 3 "~" H 10700 1350 50  0001 C CNN
+F 4 "C31850" V 10700 1350 50  0001 C CNN "LCSC"
+	1    10700 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10150 800  9700 800 
+Wire Wire Line
+	9700 850  9700 800 
+Connection ~ 9700 800 
+Wire Wire Line
+	9700 800  9200 800 
+Wire Wire Line
+	10000 1150 9700 1150
+Wire Wire Line
+	9700 1150 9700 1050
+Wire Wire Line
+	10200 1150 10350 1150
+Wire Wire Line
+	10350 1150 10350 1100
+Wire Wire Line
+	10350 1150 10700 1150
+Wire Wire Line
+	10700 1150 10700 1050
+Connection ~ 10350 1150
+Wire Wire Line
+	10700 1150 10700 1250
+Connection ~ 10700 1150
+Wire Wire Line
+	10550 800  10700 800 
+Wire Wire Line
+	10700 850  10700 800 
+Connection ~ 10700 800 
+Wire Wire Line
+	10700 800  10950 800 
+Wire Wire Line
+	10700 1450 10700 2500
+Wire Wire Line
+	9850 2500 10700 2500
+Text HLabel 10750 2900 2    50   Input ~ 0
+VSINK
+Wire Wire Line
+	9850 2900 10300 2900
+Wire Wire Line
+	10500 2900 10750 2900
+Text HLabel 9650 1550 2    50   Input ~ 0
+GND
+Text HLabel 9500 1250 2    50   Input ~ 0
+GND
+Text HLabel 8850 1250 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	9150 1900 9150 1250
+Wire Wire Line
+	9150 1250 9300 1250
+Wire Wire Line
+	8850 1250 9150 1250
+Connection ~ 9150 1250
+$Comp
+L Device:D_Zener D6
+U 1 1 65FE8B29
+P 4300 1900
+F 0 "D6" V 4254 1980 50  0000 L CNN
+F 1 "SMF22CA" V 4345 1980 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4300 1900 50  0001 C CNN
+F 3 "~" H 4300 1900 50  0001 C CNN
+F 4 "C309871" V 4300 1900 50  0001 C CNN "LCSC"
+	1    4300 1900
+	0    1    1    0   
+$EndComp
+Text HLabel 4300 2050 3    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C?
+U 1 1 65FEB0FF
+P 5000 1850
+AR Path="/65FEB0FF" Ref="C?"  Part="1" 
+AR Path="/6116447D/65FEB0FF" Ref="C?"  Part="1" 
+AR Path="/611C518B/65FEB0FF" Ref="C?"  Part="1" 
+AR Path="/628A7288/65FEB0FF" Ref="C?"  Part="1" 
+AR Path="/628D4B95/65FEB0FF" Ref="C?"  Part="1" 
+AR Path="/65E8DC68/65FEB0FF" Ref="C?"  Part="1" 
+AR Path="/65F0916A/65FEB0FF" Ref="C6"  Part="1" 
+F 0 "C6" H 5092 1896 50  0000 L CNN
+F 1 "4u7" H 5092 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5000 1850 50  0001 C CNN
+F 3 "~" H 5000 1850 50  0001 C CNN
+F 4 " C29823" H 5000 1850 50  0001 C CNN "LCSC"
+	1    5000 1850
+	1    0    0    -1  
+$EndComp
+Text HLabel 5000 1950 3    50   Input ~ 0
+GND
+$Comp
+L Device:D_Schottky D5
+U 1 1 65FECCFE
+P 7500 1250
+F 0 "D5" V 7546 1170 50  0000 R CNN
+F 1 "1N5819WS" V 7455 1170 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7500 1250 50  0001 C CNN
+F 3 "~" H 7500 1250 50  0001 C CNN
+F 4 "C191023" V 7500 1250 50  0001 C CNN "LCSC"
+	1    7500 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 65FEDC04
+P 7500 1500
+AR Path="/65FEDC04" Ref="C?"  Part="1" 
+AR Path="/6116447D/65FEDC04" Ref="C?"  Part="1" 
+AR Path="/611C518B/65FEDC04" Ref="C?"  Part="1" 
+AR Path="/628A7288/65FEDC04" Ref="C?"  Part="1" 
+AR Path="/628D4B95/65FEDC04" Ref="C?"  Part="1" 
+AR Path="/65E8DC68/65FEDC04" Ref="C?"  Part="1" 
+AR Path="/65F0916A/65FEDC04" Ref="C3"  Part="1" 
+F 0 "C3" H 7592 1546 50  0000 L CNN
+F 1 "1u" H 7592 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7500 1500 50  0001 C CNN
+F 3 "~" H 7500 1500 50  0001 C CNN
+F 4 " C52923" H 7500 1500 50  0001 C CNN "LCSC"
+	1    7500 1500
+	1    0    0    -1  
+$EndComp
+Text HLabel 7500 1650 3    50   Input ~ 0
+GND
+Text HLabel 7500 1100 1    50   Input ~ 0
+VBUS
+$Comp
+L Device:R_Small R5
+U 1 1 65FEE36E
+P 8100 1250
+F 0 "R5" V 7904 1250 50  0000 C CNN
+F 1 "470R" V 7995 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8100 1250 50  0001 C CNN
+F 3 "~" H 8100 1250 50  0001 C CNN
+F 4 "C23179" V 8100 1250 50  0001 C CNN "LCSC"
+	1    8100 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 65FEEA63
+P 8100 1550
+F 0 "R15" V 7904 1550 50  0000 C CNN
+F 1 "1K" V 7995 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8100 1550 50  0001 C CNN
+F 3 "~" H 8100 1550 50  0001 C CNN
+F 4 "C21190" V 8100 1550 50  0001 C CNN "LCSC"
+	1    8100 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 1400 8100 1400
+Wire Wire Line
+	8100 1400 8100 1350
+Connection ~ 7500 1400
+Wire Wire Line
+	8100 1450 8100 1400
+Connection ~ 8100 1400
+Wire Wire Line
+	7500 1100 8100 1100
+Wire Wire Line
+	8100 1100 8100 1150
+Wire Wire Line
+	7500 1650 7500 1600
+Wire Wire Line
+	8650 2900 8100 2900
+Wire Wire Line
+	8100 2900 8100 1650
+Connection ~ 5000 1750
+Wire Wire Line
+	5000 1750 4300 1750
+Text HLabel 3400 2300 2    50   Input ~ 0
+USB_D-
+Text HLabel 3400 2500 2    50   Input ~ 0
+USB_D+
+Text HLabel 5000 2850 1    50   Input ~ 0
+USB_D+
+Text HLabel 5150 2850 1    50   Input ~ 0
+USB_D-
+Text Label 5200 3650 1    50   ~ 0
+CC2
+Text HLabel 5150 3150 3    50   Input ~ 0
+GND
+Text HLabel 5100 4050 3    50   Input ~ 0
+GND
+Connection ~ 4300 1750
+Wire Wire Line
+	4300 1750 3300 1750
+Text Label 5000 3650 1    50   ~ 0
+CC1
+Text HLabel 5000 3150 3    50   Input ~ 0
+GND
+$Comp
+L Power_Protection:SP0502BAHT D9
+U 1 1 6603BBFC
+P 5100 3850
+F 0 "D9" H 5305 3896 50  0000 L CNN
+F 1 "ESDA25W" H 5305 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 5325 3800 50  0001 L CNN
+F 3 "https://www.lcsc.com/datasheet/lcsc_datasheet_2205251800_TECH-PUBLIC-ESDA25W_C3021136.pdf" H 5225 3975 50  0001 C CNN
+F 4 "C3021136" H 5100 3850 50  0001 C CNN "LCSC"
+	1    5100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:ESD9B3.3ST5G D8
+U 1 1 66058828
+P 5150 3000
+F 0 "D8" V 5100 3250 50  0000 L CNN
+F 1 "ESD9B3.3ST5G" V 5200 3200 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-923" H 5150 3000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 5150 3000 50  0001 C CNN
+F 4 "C96512" V 5150 3000 50  0001 C CNN "LCSC"
+	1    5150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:ESD9B3.3ST5G D7
+U 1 1 66008D1A
+P 5000 3000
+F 0 "D7" V 4950 2800 50  0000 L CNN
+F 1 "ESD9B3.3ST5G" V 5050 2350 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-923" H 5000 3000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 5000 3000 50  0001 C CNN
+F 4 "C96512" V 5000 3000 50  0001 C CNN "LCSC"
+	1    5000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6605B32F
+P 9400 1250
+AR Path="/6605B32F" Ref="C?"  Part="1" 
+AR Path="/6116447D/6605B32F" Ref="C?"  Part="1" 
+AR Path="/611C518B/6605B32F" Ref="C?"  Part="1" 
+AR Path="/628A7288/6605B32F" Ref="C?"  Part="1" 
+AR Path="/628D4B95/6605B32F" Ref="C?"  Part="1" 
+AR Path="/65E8DC68/6605B32F" Ref="C?"  Part="1" 
+AR Path="/65F0916A/6605B32F" Ref="C2"  Part="1" 
+F 0 "C2" H 9492 1296 50  0000 L CNN
+F 1 "1u" H 9492 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9400 1250 50  0001 C CNN
+F 3 "~" H 9400 1250 50  0001 C CNN
+F 4 " C52923" H 9400 1250 50  0001 C CNN "LCSC"
+	1    9400 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6605BE4B
+P 9550 1550
+AR Path="/6605BE4B" Ref="C?"  Part="1" 
+AR Path="/6116447D/6605BE4B" Ref="C?"  Part="1" 
+AR Path="/611C518B/6605BE4B" Ref="C?"  Part="1" 
+AR Path="/628A7288/6605BE4B" Ref="C?"  Part="1" 
+AR Path="/628D4B95/6605BE4B" Ref="C?"  Part="1" 
+AR Path="/65E8DC68/6605BE4B" Ref="C?"  Part="1" 
+AR Path="/65F0916A/6605BE4B" Ref="C4"  Part="1" 
+F 0 "C4" H 9642 1596 50  0000 L CNN
+F 1 "1u" H 9642 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9550 1550 50  0001 C CNN
+F 3 "~" H 9550 1550 50  0001 C CNN
+F 4 " C52923" H 9550 1550 50  0001 C CNN "LCSC"
+	1    9550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6605C196
+P 9650 1750
+AR Path="/6605C196" Ref="C?"  Part="1" 
+AR Path="/6116447D/6605C196" Ref="C?"  Part="1" 
+AR Path="/611C518B/6605C196" Ref="C?"  Part="1" 
+AR Path="/628A7288/6605C196" Ref="C?"  Part="1" 
+AR Path="/628D4B95/6605C196" Ref="C?"  Part="1" 
+AR Path="/65E8DC68/6605C196" Ref="C?"  Part="1" 
+AR Path="/65F0916A/6605C196" Ref="C5"  Part="1" 
+F 0 "C5" H 9742 1796 50  0000 L CNN
+F 1 "1u" H 9742 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9650 1750 50  0001 C CNN
+F 3 "~" H 9650 1750 50  0001 C CNN
+F 4 " C52923" H 9650 1750 50  0001 C CNN "LCSC"
+	1    9650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R18
+U 1 1 6605C5C1
+P 8400 3500
+F 0 "R18" V 8204 3500 50  0000 C CNN
+F 1 "100K" V 8295 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3500 50  0001 C CNN
+F 3 "~" H 8400 3500 50  0001 C CNN
+F 4 "C25741" V 8400 3500 50  0001 C CNN "LCSC"
+	1    8400 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 6605C770
+P 10700 950
+F 0 "R2" V 10504 950 50  0000 C CNN
+F 1 "100K" V 10595 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10700 950 50  0001 C CNN
+F 3 "~" H 10700 950 50  0001 C CNN
+F 4 "C25741" V 10700 950 50  0001 C CNN "LCSC"
+	1    10700 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 6605D98D
+P 10400 2900
+F 0 "R16" V 10204 2900 50  0000 C CNN
+F 1 "1K" V 10295 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10400 2900 50  0001 C CNN
+F 3 "~" H 10400 2900 50  0001 C CNN
+F 4 "C21190" V 10400 2900 50  0001 C CNN "LCSC"
+	1    10400 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 66070BFA
+P 8550 2100
+F 0 "R1" V 8354 2100 50  0000 C CNN
+F 1 "100K" V 8445 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8550 2100 50  0001 C CNN
+F 3 "~" H 8550 2100 50  0001 C CNN
+F 4 "C25741" V 8550 2100 50  0001 C CNN "LCSC"
+	1    8550 2100
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BQ24610
+F https://www.ti.com/lit/ds/symlink/bq24610.pdf?ts=1710227047727&ref_url=https%253A%252F%252Fwww.mouser.it%252F
+$ENDCMP
+#
 #End Doc Library

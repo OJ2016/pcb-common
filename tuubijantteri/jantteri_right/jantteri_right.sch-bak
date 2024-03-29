@@ -1,0 +1,369 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 900  1250 800  900 
+U 65F0916A
+F0 "Sheet65F09169" 50
+F1 "usbc.sch" 50
+F2 "SDA" I R 1700 1850 50 
+F3 "SCL" I R 1700 1950 50 
+F4 "GND" I R 1700 1450 50 
+F5 "VBUS" I L 900 1350 50 
+F6 "VSINK" I R 1700 1350 50 
+F7 "USB_D-" I L 900 2000 50 
+F8 "USB_D+" I L 900 1850 50 
+$EndSheet
+Wire Wire Line
+	2400 1350 2400 1450
+Wire Wire Line
+	2400 1450 2750 1450
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 6601A661
+P 4600 1600
+F 0 "J2" H 4650 1700 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 4900 1850 50  0000 R CNN
+F 2 "Connector_JST2:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical" H 4600 1600 50  0001 C CNN
+F 3 "~" H 4600 1600 50  0001 C CNN
+	1    4600 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6601B6AD
+P 4100 1900
+F 0 "#PWR0101" H 4100 1650 50  0001 C CNN
+F 1 "GND" H 4105 1727 50  0000 C CNN
+F 2 "" H 4100 1900 50  0001 C CNN
+F 3 "" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1900 4100 1900
+$Comp
+L power:GND #PWR0102
+U 1 1 6601BAD1
+P 1900 1500
+F 0 "#PWR0102" H 1900 1250 50  0001 C CNN
+F 1 "GND" H 1905 1327 50  0000 C CNN
+F 2 "" H 1900 1500 50  0001 C CNN
+F 3 "" H 1900 1500 50  0001 C CNN
+	1    1900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1750 4400 1750
+$Comp
+L power:GND #PWR0103
+U 1 1 6601CEEB
+P 4200 1500
+F 0 "#PWR0103" H 4200 1250 50  0001 C CNN
+F 1 "GND" H 4205 1327 50  0000 C CNN
+F 2 "" H 4200 1500 50  0001 C CNN
+F 3 "" H 4200 1500 50  0001 C CNN
+	1    4200 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1600 4400 1750
+Wire Wire Line
+	4400 1500 4200 1500
+$Sheet
+S 5950 2300 1000 750 
+U 6601D6D1
+F0 "Sheet6601D6D0" 50
+F1 "DRV8848.sch" 50
+F2 "GND" I L 5950 2950 50 
+F3 "DRV_SLEEP" I R 6950 2850 50 
+F4 "MOTOR_A" I R 6950 2550 50 
+F5 "MOTOR_B" I R 6950 2650 50 
+F6 "MOTOR+" I L 5950 2650 50 
+F7 "MOTOR-" I L 5950 2550 50 
+F8 "MOTOR_VCC" I L 5950 2400 50 
+F9 "DRV_nFAULT" I R 6950 2750 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 660210A4
+P 5500 2550
+F 0 "J3" H 5400 2550 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5400 2350 50  0000 C CNN
+F 2 "Connector_JST2:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical" H 5500 2550 50  0001 C CNN
+F 3 "~" H 5500 2550 50  0001 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2550 5950 2550
+Wire Wire Line
+	5950 2650 5700 2650
+Text Notes 650  850  0    197  ~ 0
+Power input
+$Sheet
+S 5950 1250 800  400 
+U 660262C2
+F0 "Sheet660262C1" 50
+F1 "5V-buck.sch" 50
+F2 "VIN" I L 5950 1400 50 
+F3 "5V" I R 6750 1400 50 
+F4 "GND" I L 5950 1550 50 
+$EndSheet
+Wire Wire Line
+	3850 1400 5450 1400
+Wire Wire Line
+	5950 2400 5450 2400
+Wire Wire Line
+	5450 2400 5450 1400
+Connection ~ 5450 1400
+Wire Wire Line
+	5450 1400 5950 1400
+$Comp
+L power:GND #PWR0104
+U 1 1 6602AA89
+P 5750 1550
+F 0 "#PWR0104" H 5750 1300 50  0001 C CNN
+F 1 "GND" H 5755 1377 50  0000 C CNN
+F 2 "" H 5750 1550 50  0001 C CNN
+F 3 "" H 5750 1550 50  0001 C CNN
+	1    5750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6602AD95
+P 5750 2950
+F 0 "#PWR0105" H 5750 2700 50  0001 C CNN
+F 1 "GND" H 5755 2777 50  0000 C CNN
+F 2 "" H 5750 2950 50  0001 C CNN
+F 3 "" H 5750 2950 50  0001 C CNN
+	1    5750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1550 5950 1550
+Wire Wire Line
+	5750 2950 5950 2950
+Wire Wire Line
+	1700 1450 1900 1450
+Wire Wire Line
+	1900 1450 1900 1500
+$Comp
+L power:GND #PWR0106
+U 1 1 6602C243
+P 2500 1600
+F 0 "#PWR0106" H 2500 1350 50  0001 C CNN
+F 1 "GND" H 2505 1427 50  0000 C CNN
+F 2 "" H 2500 1600 50  0001 C CNN
+F 3 "" H 2500 1600 50  0001 C CNN
+	1    2500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1600 2500 1600
+$Sheet
+S 4300 3600 850  850 
+U 6602CEA1
+F0 "Sheet6602CEA0" 50
+F1 "usb-to-serial.sch" 50
+F2 "RXD" I R 5150 3800 50 
+F3 "TXD" I R 5150 3900 50 
+F4 "GND" I L 4300 4350 50 
+F5 "VIO" I L 4300 4250 50 
+F6 "USB_D+" I L 4300 3850 50 
+F7 "USB_D-" I L 4300 3700 50 
+$EndSheet
+$Comp
+L power:GND #PWR0107
+U 1 1 66034FFF
+P 3900 4350
+F 0 "#PWR0107" H 3900 4100 50  0001 C CNN
+F 1 "GND" H 3905 4177 50  0000 C CNN
+F 2 "" H 3900 4350 50  0001 C CNN
+F 3 "" H 3900 4350 50  0001 C CNN
+	1    3900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4350 4300 4350
+Wire Wire Line
+	1700 1350 2400 1350
+$Sheet
+S 2000 4200 850  450 
+U 66043152
+F0 "Sheet66043151" 50
+F1 "3V3_LDO.sch" 50
+F2 "VIN" I L 2000 4350 50 
+F3 "3V3_out" I R 2850 4350 50 
+F4 "GND" I L 2000 4550 50 
+$EndSheet
+$Sheet
+S 2000 5100 850  450 
+U 66046A1B
+F0 "sheet66046A16" 50
+F1 "3V3_LDO.sch" 50
+F2 "VIN" I L 2000 5250 50 
+F3 "3V3_out" I R 2850 5250 50 
+F4 "GND" I L 2000 5450 50 
+$EndSheet
+Wire Wire Line
+	4300 4250 3150 4250
+Wire Wire Line
+	3150 4350 3150 5250
+Wire Wire Line
+	3150 5250 2850 5250
+Wire Wire Line
+	2850 4350 3150 4350
+Wire Wire Line
+	2000 5250 1550 5250
+Wire Wire Line
+	1550 5250 1550 4350
+Wire Wire Line
+	1550 4350 2000 4350
+Wire Wire Line
+	900  1350 700  1350
+Wire Wire Line
+	700  1350 700  4350
+Wire Wire Line
+	700  4350 1550 4350
+Connection ~ 1550 4350
+$Comp
+L power:GND #PWR0108
+U 1 1 660482AB
+P 1750 4550
+F 0 "#PWR0108" H 1750 4300 50  0001 C CNN
+F 1 "GND" H 1755 4377 50  0000 C CNN
+F 2 "" H 1750 4550 50  0001 C CNN
+F 3 "" H 1750 4550 50  0001 C CNN
+	1    1750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 66048653
+P 1750 5450
+F 0 "#PWR0109" H 1750 5200 50  0001 C CNN
+F 1 "GND" H 1755 5277 50  0000 C CNN
+F 2 "" H 1750 5450 50  0001 C CNN
+F 3 "" H 1750 5450 50  0001 C CNN
+	1    1750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4550 2000 4550
+Wire Wire Line
+	1750 5450 2000 5450
+$Sheet
+S 2750 1300 1100 1500
+U 65F0AC29
+F0 "Sheet65F0AC28" 50
+F1 "battery_charger.sch" 50
+F2 "GND" I L 2750 1600 50 
+F3 "SYSTEM" I R 3850 1400 50 
+F4 "BAT+" I R 3850 1750 50 
+F5 "BAT-" I R 3850 1900 50 
+F6 "input" I L 2750 1450 50 
+F7 "STAT1" I R 3850 2400 50 
+F8 "STAT2" I R 3850 2550 50 
+$EndSheet
+Wire Wire Line
+	3150 4250 3150 4350
+Connection ~ 3150 4350
+Wire Wire Line
+	900  2000 850  2000
+Wire Wire Line
+	850  2000 850  3700
+Wire Wire Line
+	850  3700 4300 3700
+Wire Wire Line
+	4300 3900 4300 3850
+Wire Wire Line
+	4300 3850 800  3850
+Wire Wire Line
+	800  3850 800  1850
+Wire Wire Line
+	800  1850 900  1850
+Text GLabel 1700 1850 2    50   Input ~ 0
+SDA_out
+Text GLabel 1700 1950 2    50   Input ~ 0
+SCL_out
+Text GLabel 3850 2550 2    50   Input ~ 0
+STAT2_out
+Text GLabel 3850 2400 2    50   Input ~ 0
+STAT1_out
+Text GLabel 9800 3100 2    50   Input ~ 0
+STAT2_out
+Text GLabel 9800 3000 2    50   Input ~ 0
+STAT1_out
+Text GLabel 9300 2800 0    50   Input ~ 0
+SCL_out
+Text GLabel 9300 2900 0    50   Input ~ 0
+SDA_out
+Text GLabel 5150 3800 2    50   Input ~ 0
+RXD_out
+Text GLabel 5150 3900 2    50   Input ~ 0
+TXD_out
+Text GLabel 9800 3200 2    50   Input ~ 0
+TXD_out
+Text GLabel 9800 3300 2    50   Input ~ 0
+RXD_out
+Text GLabel 6750 1400 2    50   Input ~ 0
+5V_out
+Text GLabel 5450 1950 2    50   Input ~ 0
+V_SYSTEM_out
+Text GLabel 9800 2900 2    50   Input ~ 0
+V_SYSTEM_out
+Text GLabel 9800 2600 2    50   Input ~ 0
+5V_out
+Text GLabel 6950 2550 2    50   Input ~ 0
+MOTOR_A_out
+Text GLabel 6950 2650 2    50   Input ~ 0
+MOTOR_B_out
+Text GLabel 6950 2750 2    50   Input ~ 0
+DRV_n_FAULT_out
+Text GLabel 6950 2850 2    50   Input ~ 0
+DRV_SLEEP_out
+$Comp
+L power:GND #PWR0110
+U 1 1 6605304D
+P 9300 2600
+F 0 "#PWR0110" H 9300 2350 50  0001 C CNN
+F 1 "GND" V 9305 2472 50  0000 R CNN
+F 2 "" H 9300 2600 50  0001 C CNN
+F 3 "" H 9300 2600 50  0001 C CNN
+	1    9300 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J4
+U 1 1 66054DDC
+P 9500 2900
+F 0 "J4" H 9550 3417 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9250 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x08_P1.27mm_Vertical_SMD" H 9500 2900 50  0001 C CNN
+F 3 "~" H 9500 2900 50  0001 C CNN
+	1    9500 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 3300 0    50   Input ~ 0
+DRV_SLEEP_out
+Text GLabel 9300 3000 0    50   Input ~ 0
+MOTOR_B_out
+Text GLabel 9300 3100 0    50   Input ~ 0
+MOTOR_A_out
+Text GLabel 9300 3200 0    50   Input ~ 0
+DRV_n_FAULT_out
+$EndSCHEMATC
