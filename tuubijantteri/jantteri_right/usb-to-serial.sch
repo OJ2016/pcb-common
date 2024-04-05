@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -68,7 +68,7 @@ F 0 "R19" V 5254 3150 50  0000 C CNN
 F 1 "1K" V 5345 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5450 3150 50  0001 C CNN
 F 3 "~" H 5450 3150 50  0001 C CNN
-F 4 "C1363962" V 5450 3150 50  0001 C CNN "LCSC"
+F 4 "C11702" V 5450 3150 50  0001 C CNN "LCSC"
 	1    5450 3150
 	0    1    1    0   
 $EndComp
@@ -86,7 +86,7 @@ F 0 "U5" H 5900 2700 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN28" H 5600 2600 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 6650 2850 50  0001 L CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 6250 3300 50  0001 C CNN
-F 4 "C105167" H 6200 4050 50  0001 C CNN "LCSC"
+F 4 "C964632" H 6200 4050 50  0001 C CNN "LCSC"
 	1    6200 4050
 	1    0    0    -1  
 $EndComp

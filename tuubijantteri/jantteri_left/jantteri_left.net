@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\outse\Documents\git\jantteri-pcb\tuubijantteri\jantteri_left\jantteri_left.sch)
-    (date "03/26/24 20:22:08")
+    (date "04/03/24 16:31:54")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -118,6 +118,8 @@
       (value Conn_02x08_Odd_Even)
       (footprint Connector_PinHeader_1.27mm:PinHeader_2x08_P1.27mm_Vertical_SMD)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C178295))
       (libsource (lib Connector_Generic) (part Conn_02x08_Odd_Even) (description "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65FE8ED1))

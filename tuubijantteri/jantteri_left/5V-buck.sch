@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -55,7 +55,7 @@ F 0 "C16" H 6042 3246 50  0000 L CNN
 F 1 "220uF" H 6042 3155 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 5950 3200 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
-F 4 " C171665" H 5950 3200 50  0001 C CNN "LCSC"
+F 4 " C8024" H 5950 3200 50  0001 C CNN "LCSC"
 	1    5950 3200
 	1    0    0    -1  
 $EndComp
