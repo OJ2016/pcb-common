@@ -1,0 +1,7 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","Conn_01x04_Pin","JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical",95.940000,-60.960000,180.000000,top
+"J2","Conn_01x04_Pin","JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical",106.680000,-60.960000,180.000000,top
+"J3","5V IN","TerminalBlock_bornier-2_P5.08mm",58.420000,-60.960000,0.000000,top
+"J4","CH1 PWR","TerminalBlock_bornier-2_P5.08mm",68.580000,-60.960000,0.000000,top
+"J5","CH2 PWR","TerminalBlock_bornier-2_P5.08mm",78.740000,-60.960000,0.000000,top
+"U1","~","WAVESHARE-2CH-UART-TO-ETH",82.550000,-78.740000,0.000000,top

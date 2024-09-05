@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\outse\Documents\git\jantteri-pcb\siilo-system-test\eth-uart-breakout\eth-uart-breakout\eth-uart-breakout.kicad_sch</source>
+    <date>2024-09-05T21:10:18+0300</date>
+    <tool>Eeschema 8.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>eth-uart-breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/jst_conn/" tstamps="/14c46993-68b0-4c85-8851-1d02f703d0eb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>jst-dbg.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>voja-footprints:WAVESHARE-2CH-UART-TO-ETH</footprint>
+      <fields>
+        <field name="Footprint">voja-footprints:WAVESHARE-2CH-UART-TO-ETH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="voja-lib" part="WAVESHARE-2CH-UART-TO-ETH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c15335d-c3ab-4f02-a3f9-3872973bb4eb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="jst_conn"/>
+      <property name="Sheetfile" value="jst-dbg.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/jst_conn/" tstamps="/14c46993-68b0-4c85-8851-1d02f703d0eb/"/>
+      <tstamps>e5dd533f-7e16-44c3-9c83-db76ec53aa6a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="voja-lib" part="WAVESHARE-2CH-UART-TO-ETH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">voja-footprints:WAVESHARE-2CH-UART-TO-ETH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="5V" type="input"/>
+        <pin num="2" name="5V" type="input"/>
+        <pin num="3" name="3V3" type="input"/>
+        <pin num="4" name="3V3" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="RST1" type="input"/>
+        <pin num="8" name="RESET" type="input"/>
+        <pin num="9" name="TXD1" type="input"/>
+        <pin num="10" name="TXD2" type="input"/>
+        <pin num="11" name="RXD1" type="input"/>
+        <pin num="12" name="RXD2" type="input"/>
+        <pin num="13" name="CFG0" type="input"/>
+        <pin num="14" name="RUN" type="input"/>
+        <pin num="15" name="DIR1" type="input"/>
+        <pin num="16" name="DIR2" type="input"/>
+        <pin num="17" name="NC" type="input"/>
+        <pin num="18" name="NC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="voja-lib">
+      <uri>C:/Users/outse/Documents/git/jantteri-pcb/voja-lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/jst_conn/GND">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="2" name="/jst_conn/RX">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/jst_conn/TX">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/jst_conn/VCC">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(U1-3V3-Pad3)">
+      <node ref="U1" pin="3" pinfunction="3V3" pintype="input+no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(U1-3V3-Pad4)">
+      <node ref="U1" pin="4" pinfunction="3V3" pintype="input+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(U1-5V-Pad1)">
+      <node ref="U1" pin="1" pinfunction="5V" pintype="input"/>
+    </net>
+    <net code="8" name="unconnected-(U1-5V-Pad2)">
+      <node ref="U1" pin="2" pinfunction="5V" pintype="input"/>
+    </net>
+    <net code="9" name="unconnected-(U1-CFG0-Pad13)">
+      <node ref="U1" pin="13" pinfunction="CFG0" pintype="input"/>
+    </net>
+    <net code="10" name="unconnected-(U1-DIR1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="DIR1" pintype="input+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(U1-DIR2-Pad16)">
+      <node ref="U1" pin="16" pinfunction="DIR2" pintype="input+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-GND-Pad5)">
+      <node ref="U1" pin="5" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(U1-GND-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(U1-NC-Pad17)">
+      <node ref="U1" pin="17" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-NC-Pad18)">
+      <node ref="U1" pin="18" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-RESET-Pad8)">
+      <node ref="U1" pin="8" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(U1-RST1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="RST1" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(U1-RUN-Pad14)">
+      <node ref="U1" pin="14" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U1-RXD1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="RXD1" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U1-RXD2-Pad12)">
+      <node ref="U1" pin="12" pinfunction="RXD2" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U1-TXD1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="TXD1" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(U1-TXD2-Pad10)">
+      <node ref="U1" pin="10" pinfunction="TXD2" pintype="input"/>
+    </net>
+  </nets>
+</export>

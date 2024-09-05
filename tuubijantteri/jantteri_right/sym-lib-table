@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "jantteri_right-rescue")(type "KiCad")(uri "${KIPRJMOD}/jantteri_right-rescue.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\outse\Documents\git\jantteri-pcb\siilo-system-test\eth-uart-breakout\eth-uart-breakout\eth-uart-breakout.kicad_sch</source>
+    <date>2024-09-05T21:12:15+0300</date>
+    <tool>Eeschema 8.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>eth-uart-breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/jst_conn/" tstamps="/14c46993-68b0-4c85-8851-1d02f703d0eb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>jst-dbg.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/jst_conn1/" tstamps="/ed1cec58-b45f-4189-91fa-63b497e56528/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>jst-dbg.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>5V IN</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd430eee-71d8-4b11-803e-28a5d14d8f66</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CH1 PWR</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ed76454-c2c0-4a1f-8c5f-59b7ad57a262</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>CH2 PWR</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>271c7402-0f4e-4876-8987-02a1e7b443f1</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>TX-TX1</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bb8e7f9-bc88-4ce6-ad16-6b300d8511a0</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>RX-RX1</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>331784c3-8661-4f0b-9bcb-24b26b9836fb</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>TX-TX2</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b89a0bf-ce0b-4a8e-91f1-c6d7a15c4a9d</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>RX-RX2</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14341c1b-ad25-46b8-b9e9-321deafaf905</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>RX-TX1</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, open</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Open" description="Jumper, 2-pole, small symbol, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e59abe00-1072-441b-b9f0-4f10acffd247</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>TX-RX1</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, open</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Open" description="Jumper, 2-pole, small symbol, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b915f5f-0f13-49f6-b958-abf0f0fc5f46</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>TX-RX2</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, open</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Open" description="Jumper, 2-pole, small symbol, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>098e23ce-fb8b-4fae-88b8-b25ae01d3b28</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>RX-TX2</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <description>Jumper, 2-pole, small symbol, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, small symbol, open</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Small_Open" description="Jumper, 2-pole, small symbol, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65403e6e-67ae-499e-b626-03eaa2968e0f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>voja-footprints:WAVESHARE-2CH-UART-TO-ETH</footprint>
+      <fields>
+        <field name="Footprint">voja-footprints:WAVESHARE-2CH-UART-TO-ETH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="voja-lib" part="WAVESHARE-2CH-UART-TO-ETH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="eth-uart-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c15335d-c3ab-4f02-a3f9-3872973bb4eb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_JST2:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST2:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="jst_conn"/>
+      <property name="Sheetfile" value="jst-dbg.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/jst_conn/" tstamps="/14c46993-68b0-4c85-8851-1d02f703d0eb/"/>
+      <tstamps>e5dd533f-7e16-44c3-9c83-db76ec53aa6a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_JST2:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST2:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="jst_conn1"/>
+      <property name="Sheetfile" value="jst-dbg.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/jst_conn1/" tstamps="/ed1cec58-b45f-4189-91fa-63b497e56528/"/>
+      <tstamps>e5dd533f-7e16-44c3-9c83-db76ec53aa6a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Small_Bridged">
+      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Small_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Small_Open">
+      <description>Jumper, 2-pole, small symbol, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Small_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Jumper, 2-pole, small symbol, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="voja-lib" part="WAVESHARE-2CH-UART-TO-ETH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">voja-footprints:WAVESHARE-2CH-UART-TO-ETH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="5V" type="input"/>
+        <pin num="2" name="5V" type="input"/>
+        <pin num="3" name="3V3" type="input"/>
+        <pin num="4" name="3V3" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="RST1" type="input"/>
+        <pin num="8" name="RESET" type="input"/>
+        <pin num="9" name="TXD1" type="input"/>
+        <pin num="10" name="TXD2" type="input"/>
+        <pin num="11" name="RXD1" type="input"/>
+        <pin num="12" name="RXD2" type="input"/>
+        <pin num="13" name="CFG0" type="input"/>
+        <pin num="14" name="RUN" type="input"/>
+        <pin num="15" name="DIR1" type="input"/>
+        <pin num="16" name="DIR2" type="input"/>
+        <pin num="17" name="NC" type="input"/>
+        <pin num="18" name="NC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="voja-lib">
+      <uri>C:/Users/outse/Documents/git/jantteri-pcb/voja-lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="5V" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="5V" pintype="input"/>
+    </net>
+    <net code="2" name="/jst_conn/RX">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="3" name="/jst_conn/TX">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="4" name="/jst_conn/VCC">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/jst_conn1/RX">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="6" name="/jst_conn1/TX">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="/jst_conn1/VCC">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(JP1-A)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="TXD1" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(JP2-A)">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="RXD1" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(JP3-A)">
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="TXD2" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(JP4-A)">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="RXD2" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(U1-3V3-Pad3)">
+      <node ref="U1" pin="3" pinfunction="3V3" pintype="input+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U1-3V3-Pad4)">
+      <node ref="U1" pin="4" pinfunction="3V3" pintype="input+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-CFG0-Pad13)">
+      <node ref="U1" pin="13" pinfunction="CFG0" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-DIR1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="DIR1" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-DIR2-Pad16)">
+      <node ref="U1" pin="16" pinfunction="DIR2" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-NC-Pad17)">
+      <node ref="U1" pin="17" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-NC-Pad18)">
+      <node ref="U1" pin="18" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-RESET-Pad8)">
+      <node ref="U1" pin="8" pinfunction="RESET" pintype="input+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-RST1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="RST1" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-RUN-Pad14)">
+      <node ref="U1" pin="14" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name jantteri-lora-rescue)(type Legacy)(uri ${KIPRJMOD}/jantteri-lora-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "jantteri-lora-rescue")(type "KiCad")(uri "${KIPRJMOD}/jantteri-lora-rescue.kicad_sym")(options "")(descr ""))
 )
